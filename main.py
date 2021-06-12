@@ -4,3 +4,5 @@ import os
 from PIL import Image, ImageDraw, ImageFont
 
 student_data = pd.read_csv('list.csv')
+font = ImageFont.truetype('arial.ttf', 60)
+for index, j in student_data.iterrows():
